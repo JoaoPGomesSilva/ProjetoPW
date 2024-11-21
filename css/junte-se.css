@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030; 
+    background-color: #c5bdf2;
+    }
+    .navbar .nav-link {
+      color: #ffffff ;
+      font-weight: bold;
+    }
+    .navbar-brand img {
+      max-height: 40px;
+    }
+  
+
+.logo {
+    max-width: 80px;
+    height: auto; 
+}
+
+  
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #9c91d8;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  
+  .form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px; 
+    margin: 0 auto; 
+    margin-bottom: 30px;
+    border-width: 1px;
+  }
+  
+ 
+  .form-container .inputs {
+    margin-bottom: 15px;
+  }
+  
+  
+  .form-container input {
+    height: 50px;
+    border: none;
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+ 
+  button[type="submit"] {
+    background-color: #c5bdf2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  
+  button[type="submit"]:hover {
+    background-color: #9c91d8;
+  }
+  
+  footer{
+    margin-top: auto;
+}
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.5rem; /*
+      margin-top: 50px;  
+    }
+  
+    .form-container {
+      max-width: 90%; /* Aumenta o tamanho do formulário para usar mais espaço */
+      padding: 20px;  /* Menos padding */
+    }
+  
+    .form-container input {
+      font-size: 14px; /* Ajusta o tamanho da fonte nos inputs */
+    }
+  
+    button[type="submit"] {
+      font-size: 16px; /* Ajusta o tamanho da fonte do botão */
+    }
+  }
+  

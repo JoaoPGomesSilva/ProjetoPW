@@ -1,0 +1,117 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030; 
+    background-color: #c5bdf2;
+    }
+    .navbar .nav-link {
+      color: #ffffff ;
+      font-weight: bold;
+    }
+    .navbar-brand img {
+      max-height: 40px;
+    }
+
+.h3 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.box{
+    margin-top: 30px;
+    
+}
+
+.txt1 {
+    text-align: left;
+    width: 50%;
+    font-size: 1.3rem; 
+    line-height: 1.6; 
+    color: #333; 
+     
+}
+
+.img1 {
+    margin-bottom: 40px;
+    width: 600px;
+    height: auto;
+    border-radius: 30px;
+    
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.missao{
+display: block;
+justify-content: center;
+align-items: center;
+margin-bottom: 90px;
+}
+
+.txt2{
+    text-align: center;
+}
+
+.caixas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.caixa{
+    display: block;
+    background-color: #dfdfdf;
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    gap: 100px;
+}
+
+.h4{
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h5{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.valores{
+    margin-bottom: 300px;
+}
+
+
+
+@media (max-width: 768px) {
+    .txt1 {
+        width: 100%; /* Deixa o texto ocupar toda a largura em telas pequenas */
+        text-align: center; /* Centraliza o texto em telas pequenas */
+    }
+
+    .img1 {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .caixas {
+        flex-direction: column;
+        align-items: center; 
+    }
+}
